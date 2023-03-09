@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form action="http://localhost:3003/alunos" method="GET">
+        <input type="text" name="nome" placeholder="Nome">
+        <input type="password" name="senha" placeholder="Senha"> 
+        <label for="documento">CPF ou CNPJ</label>
+        <input type="text" name="cpfCnpj">
+        <textarea name="descricao" cols="30" rows="10"></textarea>
+        <div>
+            <input type="radio" name="tipo" checked="fem"> Feminino
+            <input type="radio" name="tipo" value="masc"> Masculino
+            <input type="radio" name="teste" checked="fem"> teste1
+            <input type="radio" name="teste" value="masc"> teste2
+        </div>
+        
+        <div>
+            <input type="number" name="idade" placeholder="IDADE">
+        </div>
+        <div>
+            <input type="checkbox" name="atleta" value="atleta"> Atleta
+        </div>
+        <div>

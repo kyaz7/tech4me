@@ -1,0 +1,52 @@
+body {
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+
+
+.cesta {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  top: 300px;
+}
+
+
+
+.bola {
+  margin-left: 30px;
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  border-radius: 100px;
+  border: 2px solid;
+  position: relative;
+  animation: lan 4s 2s infinite ease-out;
+  top: 250px;
+}
+
+@keyframes lan {
+  0%,100%{
+    transform: translateX(370px);
+}
+10%{
+    transform: translateY(-250px);
+}
+20%{
+    transform: translateY(0px);
+}
+40%{
+    transform: translateY(-20px);
+}
+60%{
+    transform: translateY(0px);
+}
+80%{
+    transform: translateY(-20px);
+}
+90%{
+     transform: translateY(0px)
+}
+
+}
